@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.sub-title {
+	margin-top: 70px;
+}
+hr {
+	width: 164px;
+	margin-left: 170px;
+	margin-top: -24px;
+    color: rgb(158, 155, 155);
+}
+b {
+	font-size: 50px;
+}
+.section-one{
+    background-image: url(./img/hero.jpg);
+    background-position: center;
+    height:636px;
+}
+.title {
+	margin-top: 120px;
+}
+.fa-solid.fa-gavel.fs-1 {
+	color: blue;
+}
+.fa-solid.fa-flag.fs-1 {
+	color: blue;
+}
+.fa-solid.fa-id-card.fs-1 {
+	color: blue;
+}
+.card.mt-3.bg-light.shadow.p-3.mb-5.bg-body.rounded {
+	margin-left: 124px;
+}
+.card.mt-3.bg-light.shadow.p-3.mb-5.bg-body.rounded {
+	margin-left: 59px;
+}
+.section-two{
+    position: relative;
+}
+.image::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:16px;
+    width: 74%;
+    height: 100%;
+    box-shadow: -30px -30px 0 var(--bs-warning);
+    opacity: .4;
+    border-radius: .25rem;
+}
+.section-title.mt-4 {
+	color: #444;
+}
+.section-sub-title.fs-5.mt-5 {
+	color: #807b7b;
+}
+.descreption.fs-5.mt-4{
+    color: #807b7b;
+}
